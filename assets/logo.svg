@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 960" role="img" aria-label="GDTEAMSPS logo">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#a61fd3"/>
+      <stop offset="45%" stop-color="#6d54db"/>
+      <stop offset="100%" stop-color="#36d5cb"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d8ff8b"/>
+      <stop offset="23%" stop-color="#b7ff4b"/>
+      <stop offset="65%" stop-color="#8ded3d"/>
+      <stop offset="100%" stop-color="#6adf2d"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="0" flood-color="#0d1418" flood-opacity="0.7"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="0" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="960" fill="url(#bgGrad)"/>
+
+  <g opacity="0.28" fill="none" stroke="rgba(255,255,255,0.75)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 80 L210 0 L300 120 L500 0 L620 120 L820 0 L930 140 L1120 0 L1260 180 L1600 0"/>
+    <path d="M0 180 L200 80 L300 190 L480 80 L600 200 L790 88 L900 210 L1110 80 L1235 220 L1600 120"/>
+    <path d="M0 280 L180 170 L290 300 L470 180 L610 310 L780 180 L910 300 L1120 190 L1260 340 L1600 220"/>
+    <path d="M0 380 L170 270 L300 410 L460 280 L600 420 L760 280 L930 420 L1090 290 L1260 460 L1600 330"/>
+    <path d="M0 480 L170 360 L310 500 L470 350 L620 510 L770 370 L920 510 L1100 360 L1250 560 L1600 430"/>
+    <path d="M0 580 L180 470 L300 600 L470 450 L640 620 L770 470 L930 610 L1100 500 L1245 660 L1600 530"/>
+  </g>
+
+  <g filter="url(#shadow)" transform="translate(120 70)">
+    <text x="0" y="330" font-size="350" font-weight="900" font-family="Verdana, Arial, sans-serif" fill="#111" stroke="#111" stroke-width="26" paint-order="stroke fill" letter-spacing="8">GDPS+</text>
+    <text x="0" y="330" font-size="350" font-weight="900" font-family="Verdana, Arial, sans-serif" fill="url(#greenGrad)" stroke="#fff" stroke-width="18" paint-order="stroke fill" letter-spacing="8">GDPS+</text>
+
+    <text x="0" y="700" font-size="350" font-weight="900" font-family="Verdana, Arial, sans-serif" fill="#111" stroke="#111" stroke-width="26" paint-order="stroke fill" letter-spacing="8">TEAMS</text>
+    <text x="0" y="700" font-size="350" font-weight="900" font-family="Verdana, Arial, sans-serif" fill="url(#greenGrad)" stroke="#fff" stroke-width="18" paint-order="stroke fill" letter-spacing="8">TEAMS</text>
+  </g>
+</svg>
+
