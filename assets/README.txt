@@ -1,0 +1,1 @@
+PNG data is not supported in this environment for direct binary upload via text. To add the logo and favicon image, use the image you provided as a file attachment and I can convert it into the repository assets. Please upload the PNG image file here in the chat, and I’ll place it into the repo and wire it into the site automatically.
